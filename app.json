@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/InformationSearch/InformationSearch",
+    "pages/InformationPush/InformationPush",
+    "pages/PersonalService/PersonalService"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "成信大招生",
+    "backgroundColor": "#9999",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "/images/tabBar/index_u.png",
+        "selectedIconPath": "/images/tabBar/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/images/tabBar/search_u.png",
+        "selectedIconPath": "/images/tabBar/search.png",
+        "pagePath": "pages/InformationSearch/InformationSearch",
+        "text": "信息查询"
+      },
+      {
+        "iconPath": "/images/tabBar/personal_u.png",
+        "selectedIconPath": "/images/tabBar/personal.png",
+        "pagePath": "pages/PersonalService/PersonalService",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
