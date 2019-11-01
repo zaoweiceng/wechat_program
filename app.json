@@ -2,7 +2,6 @@
   "pages": [
     "pages/index/index",
     "pages/InformationSearch/InformationSearch",
-    "pages/InformationPush/InformationPush",
     "pages/PersonalService/PersonalService"
   ],
   "window": {
