@@ -2,7 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/InformationSearch/InformationSearch",
-    "pages/PersonalService/PersonalService"
+    "pages/PersonalService/PersonalService",
+    "pages/perTo00/perTo00",
+    "pages/perTo01/perTo01",
+    "pages/perTo02/perTo02",
+    "pages/perTo03/perTo03",
+    "pages/perTo04/perTo04",
+    "pages/perTo05/perTo05"
   ],
   "window": {
     "navigationBarBackgroundColor": "#0000",
