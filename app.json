@@ -8,7 +8,11 @@
     "pages/perTo02/perTo02",
     "pages/perTo03/perTo03",
     "pages/perTo04/perTo04",
-    "pages/perTo05/perTo05"
+    "pages/perTo05/perTo05",
+    "pages/PersonalService/favorite/favorite",
+    "pages/PersonalService/personalifo/personalifo",
+    "pages/PersonalService/question/question",
+    "pages/PersonalService/feedback/feedback"
   ],
   "window": {
     "navigationBarBackgroundColor": "#0000",

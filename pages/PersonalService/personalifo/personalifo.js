@@ -1,11 +1,11 @@
-// pages/PersonalService/PersonalService.js
+// pages/PersonalService/personalifo/personalifo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    user_name: '用户名(请登陆)'
+
   },
 
   /**

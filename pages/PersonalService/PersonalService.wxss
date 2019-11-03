@@ -1,1 +1,20 @@
 /* pages/PersonalService/PersonalService.wxss */
+.user_image{
+  display: flex;
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 80rpx;
+}
+.page__title{
+  margin-top: 50rpx;
+  margin-left: 25rpx;
+}
+.user{
+  display: flex;
+  flex: content;
+  height: 150rpx;
+  justify-content: right;
+  text-align: right;
+  border-top: 1rpx solid  #808080;
+}

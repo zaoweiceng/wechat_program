@@ -14,10 +14,10 @@
     </block>
   </view>
 
-  <view class="page__hd" style="position:fixed; bottom:0;width: 750rpx;"> 
-    <text class="contact">\n\n联系方式</text>
+  <view class="page__hd" style="position:fixed; bottom:0;width: 750rpx; line-height: 25rpx;"> 
+    <text class="contact" >\n\n联系方式</text>
     <view class="divLine"></view>
-    <text class="info">学校地址：四川省成都市西南航空港经济开发区学府路一段24号
+    <text class="info" style="font-size:15rpx">学校地址：四川省成都市西南航空港经济开发区学府路一段24号
       咨询电话：028-85966857(兼传真)、18908063503、18908063532
       邮政编码：610225</text>
   </view>
