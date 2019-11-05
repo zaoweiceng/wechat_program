@@ -1,27 +1,31 @@
 <view class="container">
   <swiper class="playImg" indicator-dots="true" autoplay="true" interval="2000" circular="true">
-  <swiper-item><image class="imgInPlay" src="/images/perPageIcon/GlobalImg.png"></image></swiper-item>
-  <swiper-item><image class="imgInPlay" src="/images/perPageIcon/LotusPond.png"></image></swiper-item>
-  <swiper-item><image class="imgInPlay" src="/images/perPageIcon/PlayGround.png"></image></swiper-item>
-</swiper>
+    <swiper-item><image class="imgInPlay" src="/images/perPageIcon/GlobalImg.png"></image></swiper-item>
+    <swiper-item><image class="imgInPlay" src="/images/perPageIcon/LotusPond.png"></image></swiper-item>
+    <swiper-item><image class="imgInPlay" src="/images/perPageIcon/PlayGround.png"></image></swiper-item>
+  </swiper>
 
   <view class="home_grids">
     <block wx:for="{{griddata}}" wx:key="item.name">
-      <navigator url="../{{item.url}}/{{item.url}}" class='home_grid'>
-      <image src="{{item.img}}" class="home_icon"></image>
-      <view class="home_grid_text">{{item.name}}</view>
+      <navigator url="{{item.url}}/{{item.url}}" class='home_grid'>
+        <image src="{{item.img}}" class="home_icon"></image>
+        <view class="home_grid_text">{{item.name}}</view>
       </navigator>
     </block>
   </view>
 
-  <view class="page__hd" style="position:fixed; bottom:0;width: 750rpx; line-height: 25rpx;"> 
-    <text class="contact" >\n\n联系方式</text>
-    <view class="divLine"></view>
-    <text class="info" style="font-size:15rpx">学校地址：四川省成都市西南航空港经济开发区学府路一段24号
-      咨询电话：028-85966857(兼传真)、18908063503、18908063532
-      邮政编码：610225</text>
+  <view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer">
+      <view class="weui-footer__text">
+        学校地址：四川省成都市西南航空港经济开发区学府路一段24号
+      </view>
+      <view class="weui-footer__text">
+        咨询电话：028-85966857(兼传真)、18908063503、18908063532
+      </view>
+      <view class="weui-footer__text">
+        邮政编码：610225
+      </view>
+    </view> 
   </view>
-
-
 
 </view>

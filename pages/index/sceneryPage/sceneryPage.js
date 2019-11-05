@@ -1,18 +1,11 @@
-// pages/index/index.js
+// pages/perTo02/perTo02.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    griddata: [
-      { name: "学校概况", img: "/images/perPageIcon/00.png", url: "schoolIntro" },
-      { name: "学院介绍", img: "/images/perPageIcon/01.png", url: "professIntro" },
-      { name: "学校风光", img: "/images/perPageIcon/02.png", url: "sceneryPage" },
-      { name: "招生计划", img: "/images/perPageIcon/03.png", url: "enrollmentPlan" },
-      { name: "招生章程", img: "/images/perPageIcon/04.png", url: "enrollmentOutline" },
-      { name: "历年分数", img: "/images/perPageIcon/05.png", url: "pastScore" }
-    ]
+
   },
 
   /**

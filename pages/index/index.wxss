@@ -58,3 +58,8 @@
 .page__hd{
   text-align: center;
 }
+
+.son_list{
+  background-color: white
+
+}
