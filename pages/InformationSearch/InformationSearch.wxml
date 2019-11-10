@@ -1,0 +1,8 @@
+<view>
+  <view>
+    <button bindtap="Accepted">录取进度</button>
+    <button bindtap="enrollSearch">录取查询</button>
+    <button bindtap="Tracking">通知书跟踪</button>
+    <button bindtap="Student">学生档案</button>
+  </view>
+</view>

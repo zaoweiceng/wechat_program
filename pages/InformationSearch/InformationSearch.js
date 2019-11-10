@@ -7,6 +7,26 @@ Page({
   data: {
 
   },
+  Accepted: function(param){
+    wx.navigateTo({
+      url: '/pages/InformationSearch/Accepted/Accepted',
+    })
+  },
+  Tracking: function (param) {
+    wx.navigateTo({
+      url: '/pages/InformationSearch/Tracking/Tracking',
+    })
+  },
+  enrollSearch: function (param) {
+    wx.navigateTo({
+      url: '/pages/InformationSearch/enrollSearch/enrollSearch',
+    })
+  },
+  Student: function (param) {
+    wx.navigateTo({
+      url: '/pages/InformationSearch/Student/Student',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

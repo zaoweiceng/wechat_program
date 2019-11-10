@@ -17,7 +17,11 @@
     "pages/index/professIntro/digitalMedia/digitalMedia",
     "pages/index/professIntro/atmosphericScience/atmosphericScience",
     "pages/index/professIntro/appliedMeteorology/appliedMeteorology",
-    "pages/index/professIntro/foreignLanguage/foreignLanguage"
+    "pages/index/professIntro/foreignLanguage/foreignLanguage",
+    "pages/InformationSearch/Accepted/Accepted",
+    "pages/InformationSearch/enrollSearch/enrollSearch",
+    "pages/InformationSearch/Tracking/Tracking",
+    "pages/InformationSearch/Student/Student"
   ],
   "window": {
     "navigationBarBackgroundColor": "#0000",

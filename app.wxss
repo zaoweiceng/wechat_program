@@ -1,2 +1,2 @@
   /*weui*/
-  @import 'weui.wxss';
+  @import "weui.wxss";
