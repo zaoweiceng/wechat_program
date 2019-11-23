@@ -28,3 +28,6 @@
     </view>
   </view>
 </view>
+
+<button bindtap="phonecallevent" class="phoneNav"><image src="/images/phone.png" /><text>客服1</text></button>
+<button bindtap="phonecallevent" class="phoneNav"><image src="/images/phone.png" /><text>客服2</text></button>

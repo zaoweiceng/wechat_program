@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    user_name: '用户名(请登陆)'
+    user_name: '用户名(请登陆)',
+    phoneNum: '13032819597'
+  },
+
+  phonecallevent: function () {
+    wx.makePhoneCall({
+      phoneNumber: this.data.phoneNum
+    })
   },
 
   /**

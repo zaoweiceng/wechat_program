@@ -37,3 +37,6 @@ page{
 .icon_down_rotate{
   transform:rotate(180deg);
 }
+.container{
+  text-align: center;
+}

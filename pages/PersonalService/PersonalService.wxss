@@ -18,3 +18,17 @@
   text-align: right;
   border-top: 1rpx solid  #808080;
 }
+.phoneNav{
+  height: 80rpx;
+  font-size: 45rpx;
+  display:flex; 
+  align-items:center;
+}
+.phoneNav image{
+  height: 55rpx;
+  width: 55rpx;
+  margin-left: 20rpx;
+}
+.phoneNav text{
+  margin-left: 20rpx;
+}
